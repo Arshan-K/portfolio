@@ -1,0 +1,48 @@
+*{
+    color: rgb(189, 21, 161)
+}
+.about-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+  .about-section p {
+    font-size: 50px;
+    line-height: 1.5;
+    height: calc(100vh - 200px); 
+    
+  }
+  
+  .about-section p::-webkit-scrollbar {
+    width: 25px;
+  }
+  
+  .about-section p::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+  
+  .about-section p::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+  }
+  
+  .highlighted-skills {
+    color: #007bff; 
+  }
+  
+  .good-text {
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  .para{
+    font-size: 30px;
+    overflow-y: scroll;
+  }
